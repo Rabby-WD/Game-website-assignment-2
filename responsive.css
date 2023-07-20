@@ -32,7 +32,13 @@
       margin-bottom: 20px;
     }
   }
-  @media (max-width:425px){
+  @media screen and (max-width:425px){
+.download{
+    flex-direction: column;
+}
+  }
+
+  @media screen and (max-width:425px){
     .footer{
     text-align:left;
     padding:5%;
@@ -80,7 +86,7 @@
       margin-bottom: 20px;
     }
   }
-  @media (max-width:425px){
+  @media screen and (max-width:425px){
     .footer{
     text-align:left;
     padding:5%;
@@ -129,7 +135,7 @@
           margin-bottom: 20px;
         }
       }
-      @media (max-width:425px){
+      @media screen and (max-width:425px){
         .footer{
         text-align:left;
         padding:5%;
@@ -143,53 +149,3 @@
         margin:0% 3%;
         }
         }
-        /* tablet device */
-        @media screen and (max-width:768px) {
-        .nav-container{
-    
-          
-            flex-direction: column;
-            
-            
-        }
-        .logo-container{
-            flex-direction: column;
-            margin-right: 100px;
-        }
-        .nav-items-container{
-    
-            flex-direction: column;
-            width: 100%;
-            
-        }
-        .nav-items-container a{
-            margin-top: 20px;
-        }
-        .main-container{
-            flex-direction: column-reverse;
-        }
-    }
-    
-    @media screen and (max-width: 768px) {
-        .column {
-          width: 100%;
-          display: block;
-          margin-bottom: 20px;
-        }
-      }
-      @media (max-width:768px){
-        .footer{
-        text-align:left;
-        padding:5%;
-        }
-        .footer .row ul li{
-        display:block;
-        margin:10px 0px;
-        text-align:left;
-        }
-        .footer .row a i{
-        margin:0% 3%;
-        }
-        }
-        
-    
